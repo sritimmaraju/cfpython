@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM alpine:3.7
 LABEL name="Sri Timmaraju"
 
 ADD autoscaler-for-pcf-cliplugin-linux64-binary-2.0.233 cf_plugins/
