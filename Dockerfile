@@ -13,6 +13,4 @@ RUN apt-get update && \
     apt-get install python -y && \
     apt-get install ansible -y && \
     apt-get install git -y && \
-    apt-get install curl -y && \
-    apt-get install vim -y && \
     cf install-plugin cf_plugins/autoscaler-for-pcf-cliplugin-linux64-binary-2.0.233 -f
