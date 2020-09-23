@@ -10,7 +10,6 @@ RUN apt-get update && \
     echo "deb https://packages.cloudfoundry.org/debian stable main" | tee /etc/apt/sources.list.d/cloudfoundry-cli.list && \
     apt-get update && \
     apt-get install cf-cli -y && \
-    apt-get install software-properties-common -y && \
     apt-get install python -y && \
     apt-get install ansible -y && \
     apt-get install git -y && \
